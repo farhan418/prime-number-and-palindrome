@@ -1,13 +1,5 @@
 
-ufuk ='108'
-if ufuk == '109':
-    print('helal oğluuum')
-elif ufuk == '110':
-    print('amk şişkosu')
-elif ufuk == '108':
-    print('yok amına')
-else:
-    print('yalan söyleme amk çocu')
+
 
 
 def asal(w):
@@ -42,13 +34,3 @@ def polind(text):
 polind('qwerewq')
 
 
-def asal(w):
-for q in range(2,w):
-for b in range (2,w):
-if q % b == 0 and q > b:
-break
-else:
-print(q)
-return 'Finish'
-
-print(asal(1000))
