@@ -2,7 +2,7 @@
 
 
 
-def asal(w):
+def prime(w):
     for q in range(2,w):
         for b in range (2,w):
             if q % b == 0 and q > b:
@@ -11,7 +11,7 @@ def asal(w):
             print(q)
     return 'Finish'
 
-print(asal(1000))
+print(prime(1000))
 
 '''
 for x in range(2, 101):
