@@ -1,1 +1,1 @@
-# asal-say-ve-polindrom
+prime numbers and polindrome
