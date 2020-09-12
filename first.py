@@ -26,12 +26,12 @@ for x in range(2, 101):
 
 
 
-def polind(text):
+def palind(text):
     if text == text[::-1]:
-        print(text + ' ' + 'is a polindrom')
+        print(text + ' ' + 'is a palindrome')
     else:
-        print(text + ' ' + 'is not a polindrom')
+        print(text + ' ' + 'is not a palindrome')
 
-polind('qwerewq')
+palind('qwerewq')
 
 
