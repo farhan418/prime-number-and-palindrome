@@ -1,1 +1,1 @@
-prime numbers and polindrome
+prime numbers and palindrome
