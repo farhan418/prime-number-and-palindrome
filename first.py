@@ -5,7 +5,7 @@ from math import sqrt
 
 def prime(w):
     for q in range(2,w):
-        for b in range (2, q):
+        for b in range (2, int(sqrt(q))+1):
             if q % b == 0 :
                 break
         else:
